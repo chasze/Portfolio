@@ -1,0 +1,24 @@
+body
+{
+    background-color:#88E0EF;
+    color: #161E54;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+header {
+    text-align: center;
+    background-color: #FF9B6A;
+}
+
+
+
+nav {
+    text-align: right;
+    
+}
+
+
+.project {
+    background-color: #FF5151;
+}
