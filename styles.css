@@ -1,24 +1,132 @@
-body
-{
-    background-color:#88E0EF;
-    color: #161E54;
-    font-family:'Times New Roman', Times, serif;
+
+
+/* 
+Colors 
+#100F0F
+#0F3D3E
+#E2DCC8
+#F1F1F1 */
+
+ul {
+    display: flex; 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding: 0 .5rem;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #100F0F;
+    color: #F1F1F1;
+    font-size: 2rem;
 
 }
 
 header {
-    text-align: center;
-    background-color: #FF9B6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.project1{
+    background-color:  #0F3D3E;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
+.project2 {
+    background-color:  #E2DCC8;
+    color: black;
 
-nav {
-    text-align: right;
-    
+}
+
+.project2 a {
+    text-decoration: none;
+    color: #0F3D3E;
 }
 
 
-.project {
-    background-color: #FF5151;
+.project2 a:hover {
+    text-decoration: underline;
 }
+
+
+.project3{
+    background-color:  #0F3D3E;
+
+}
+
+.project1, .project2 , .project3 {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+
+
+ 
+    img {
+        max-width: 50%;
+      } 
+
+    #chase {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        border: 2px solid white;
+    }
+
+
+    .project1 img:hover {
+        border: 3px solid white;
+      }
+
+
+    .project2 img:hover {
+        border: 3px solid #0F3D3E;
+      }
+
+      .project3 img:hover {
+        border: 3px solid white;
+      }
+
+
+      .contact  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
