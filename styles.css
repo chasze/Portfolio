@@ -100,12 +100,6 @@ a:hover {
         max-width: 50%;
       } 
 
-    #chase {
-        border-radius: 50%;
-        height: 250px;
-        width: 250px;
-        border: 2px solid white;
-    }
 
 
     .project1 img:hover {
@@ -130,3 +124,23 @@ a:hover {
         margin: 0;
         padding: 0;
     }
+
+
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        background-color: black;
+        margin: 0rem;
+        overflow: hidden;
+      }
+      
+      h1 {
+        font-family: 'Space Mono', monospace;
+        font-size: clamp(3rem, 10vw, 10rem);
+        color: white;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+      }
+      
+   
