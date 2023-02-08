@@ -1,25 +1,5 @@
 
 
-/* 
-Colors 
-#100F0F
-#0F3D3E
-#E2DCC8
-#F1F1F1 */
-
-ul {
-    display: flex; 
-    margin-left: 0;
-    padding-left: 0;
-}
-
-li {
-    padding: 0 .5rem;
-    list-style-type: none;
-    margin: 0;
-
-}
-
 
 
 
@@ -37,18 +17,38 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: auto;
+}
+
+
+
+ul {
+    display: flex; 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding: 0 .5rem;
+    list-style-type: none;
+    margin: 0;
 
 }
+
+
 
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    margin: 3rem 5rem;
 }
 
 .project1{
     background-color:  #0F3D3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -118,29 +118,30 @@ a:hover {
 
       .contact  {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: 0;
         padding: 0;
     }
 
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
 
-    body {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-        background-color: black;
-        margin: 0rem;
-        overflow: hidden;
-      }
-      
+
+
       h1 {
         font-family: 'Space Mono', monospace;
         font-size: clamp(3rem, 10vw, 10rem);
         color: white;
-        padding: 0rem clamp(1rem, 2vw, 3rem);
-        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        /* padding: 0rem clamp(1rem, 2vw, 3rem); */
+        /* border-radius: clamp(0.4rem, 0.75vw, 1rem); */
       }
       
+   
    
