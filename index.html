@@ -14,29 +14,29 @@
 <div class="navbar"> 
     
     <ul>
-    <li><a href="project1">About</a></li>
-    <li><a href="news.asp">Projects</a></li>
-    <li><a href="contact.asp">Contact</a></li>
+    <li><a href="#page-top">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul></div>
 
-<header> 
+<header id="page-top" > 
 <h1 data-value="Chase Dugan">Chase Dugan</h1>
 
 <h2 data-value="Web Developer">Web Developer</h2>
 </header> 
 
-<div class="about-me"> 
+<div id="about-me" class="about-me"> 
 
 <p> I am a self taught developer from New Orleans. I am passionate about technology, development,  and learning new skills. Below are some of the projects I have worked on!</p>
 
 </div>
 
-<div class="project1">
+<div id="projects" class="project1">
     <h2> Rock Paper Scissors</h2>
    <a  target="_blank" style="display: contents" href="https://chasze.github.io/rockpaperscissors/"><img  src="rps.png" alt=""></a>
 
  
-    <p>  A rock paper scissors games make with JavaScript that puts a player against a computer. </p>
+    <p>  A rock paper scissors games make with JavaScript that puts a player against a computer.</p>
 
         <p><a href="https://github.com/chasze/rockpaperscissors" target="_blank"> Source Code <ion-icon name="logo-github"></ion-icon></a></p>
     
@@ -60,34 +60,27 @@
     
          </div>
 
-         <div class="contact">
+
+
+         <div id="contact" class="contact">
+
+            <div class="contatct-head">
                 <h3> Contact Me</h3>
 
-                <form action=”mailto:chaseadugan@gmail.com”
-
-
-                method=”POST”
-                
-                
-                enctype=”text/plain”
-                
-                
-                name=”EmailForm”>
-                
-                <div> 
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
             </div>
-                <div>
-                <label for="ContactCommentt">Message:</label>
-                <textarea id=”ContactCommentt” rows=”6″ cols=”20″> </textarea>
-                </div> 
-                <button value="send" type="submit">Submit Me</button>
+               
+                
+                
+        <div class="methods"> 
+        <form action="mailto:chaseadugan@gmail.com" method="get" enctype="text/plain">         
+                <button value="send" type="submit">Email</button>
+        </form>
 
-                
-                </form>
-                
+         <a target="_blank"  href="https://www.linkedin.com/in/chase-dugan/"><ion-icon name="logo-linkedin"></ion-icon> </a>
+
+
         </div>
+    </div>
 
 
          <footer> </footer>

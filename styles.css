@@ -20,7 +20,15 @@ header {
     height: auto;
 }
 
+    .methods {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .methods a {
+        padding-top: .5rem;
+    }
 
 ul {
     display: flex; 
@@ -93,7 +101,9 @@ a:hover {
 
     }
 
-
+    input {
+        padding: .5rem;
+    }
 
  
     img {
@@ -115,22 +125,36 @@ a:hover {
         border: 3px solid white;
       }
 
+   
 
-      .contact  {
+
+
+    .contact {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        margin: 0;
-        padding: 0;
+        margin-bottom: 3rem;
+        flex-direction: column;
     }
-
+    
     form {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 3rem;
+        margin: auto 1.5rem ;
+    }
+     
+    form div {
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form label {
+        padding: .5rem;
+        display: flex;
     }
 
 
@@ -145,3 +169,19 @@ a:hover {
       
    
    
+
+      button {
+        padding: 5px 10px;
+        font-size: 1.2rem;
+        border: 1px solid white;
+        border-radius: 5%;
+        background-color: #100F0F;
+        color: white;
+      }
+
+      button:hover {
+        text-decoration: underline;
+        border: 2px solid white;
+        cursor: pointer;
+       
+      }
